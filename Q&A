@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--====== Title ======-->
+    <title>Violet's Q&A</title>
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!--====== Line Icons css ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.css">
+
+    <!--====== Slick css ======-->
+    <link rel="stylesheet" href="assets/css/cb-slider.css">
+    
+    <!--====== Animate css ======-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+    
+    <!--====== PRELOADER PART START ======-->
+
+    <div class="preloader">
+        <div class="loader_34">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== PRELOADER ENDS START ======-->
+
+    <!--====== HEADER PART START ======-->
+
+    <header class="header-area">
+        <ul class="cb-slideshow">
+            <li><span>Image 01</span></li>
+            <li><span>Image 02</span></li>
+            <li><span>Image 03</span></li>
+            <li><span>Image 04</span></li>
+            <li><span>Image 05</span></li>
+            <li><span>Image 06</span></li>
+        </ul>
+        <div class="header-card" >
+            <div class="header-card-wrapper wow fadeInUp" data-wow-duration="2s" data-wow-delay="1.2s">
+                <div class="card-header bg_cover" style="background-image: url(assets/images/card-bg.jpg)"></div> <!-- card-header -->
+                <div class="card-profile">
+                    <img src="assets/images/profile.jpg" alt="Profile">
+                </div> <!-- card-profile -->
+                <div class="card-content text-center">
+					<p class="text">    
+兩百字內的個人簡介
+為什麼想成為工程師 ( 請以自我期許帶入：前端、後端、或全端工程師 )
+為了成為工程師，曾經做過什麼努力？
+對於工程師的職業想像是什麼？
+如果參與這個計畫，會怎麼安排學習時間？
+如果參與這個計畫，預期會碰到什麼困難？你打算怎麼解決它？
+想要對我們說的事情？</p>
+
+                    </ul>
+                </div> <!-- card-social -->
+            </div> <!-- header-card -->
+        </div> <!-- header-card -->
+    </header>
+
+    <!--====== HEADER PART ENDS ======-->
+
+    <!--====== MODAL CONTACT PART ENDS ======-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-modalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="lni-close"></i>
+                </button>
+                
+                <div class="modal-body">
+                    <div class="section-title text-center pb-20">
+                        <h5 class="sub-title mb-15">與我聯繫</h5>
+                        <h2 class="title">Contact Me</h2>
+                    </div> <!-- section title -->
+                    <div class="contact-form">
+                        <form id="contact-form" action="assets/contact.php" method="post" data-toggle="validator">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="single-form form-group">
+                                        <input type="text" name="name" placeholder="Your Name 姓名" data-error="Name is required." required="required">
+                                        <div class="help-block with-errors"></div>
+                                    </div> <!-- single form -->
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-form form-group">
+                                        <input type="email" name="email" placeholder="Your Email" data-error="Valid email is required." required="required">
+                                        <div class="help-block with-errors"></div>
+                                    </div> <!-- single form -->
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-form form-group">
+                                        <input type="text" name="subject" placeholder="Subject 主旨" data-error="Subject is required." required="required">
+                                        <div class="help-block with-errors"></div>
+                                    </div> <!-- single form -->
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-form form-group">
+                                        <input type="text" name="phone" placeholder="Phone 電話" data-error="Phone is required." required="required">
+                                        <div class="help-block with-errors"></div>
+                                    </div> <!-- single form -->
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="single-form form-group">
+                                        <textarea placeholder="Your Mesaage 留言" name="message" data-error="Please,leave us a message. 請留下想告訴我的內容。" required="required"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div> <!-- single form -->
+                                </div>
+                                <p class="form-message"></p>
+                                <div class="col-md-12">
+                                    <div class="single-form form-group text-center">
+                                        <button type="submit" class="main-btn">Send Message 送出訊息</button>
+                                    </div> <!-- single form -->
+                                </div>
+                            </div> <!-- row -->
+                        </form>
+                    </div> <!-- contact form -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== MODAL CONTACT PART ENDS ======-->
+
+
+
+    <!--====== jquery js ======-->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!--====== Ajax Contact js ======-->
+    <script src="assets/js/ajax-contact.js"></script>
+
+    <!--====== validator js ======-->
+    <script src="assets/js/validator.min.js"></script>
+
+    <!--====== WOW js ======-->
+    <script src="assets/js/wow.min.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
